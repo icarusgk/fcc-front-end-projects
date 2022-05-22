@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+/* Sets the background */
+body {
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 600px;
+  height: 100%;
+  /* Centers the div */
+  margin: 0 auto;
+  padding: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.625);
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+}
+.field-group {
+  display: block;
+  padding: 10px 0
+}
+
+.field-group  label {
+  margin-bottom: 10px;
+}
+
+.form-info {
+  min-height: 2rem;
+  border-radius: 5px;
+  padding: 8px;
+  border: 0;
+}
+
+span {
+  font-size: small;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+textarea,
+select {
+  /* margin: 10px 0 0 0; */
+	width: 100%;
+  min-height: 2em;
+}
+
+textarea {
+  border-radius: 5px;
+}
+
+select {
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.form-info {
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  width: unset;
+}
+
+
+#title {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+#description {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+
+.inline {
+  vertical-align: center;
+}
+
+#submit {
+  width: 100%;
+  padding: 10px;
+  margin: 1em 0;
+  background-color: rgb(70, 148, 89);
+  color: white;
+  border: 0;
+  border-radius: 8px;
+}
+
